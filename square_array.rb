@@ -5,5 +5,5 @@ def square_array(array)
   #   new_array.push(i)
   # end
   # new_array
-  array.each {|el| el**2}
+  array.map {|el| el**2}
 end
